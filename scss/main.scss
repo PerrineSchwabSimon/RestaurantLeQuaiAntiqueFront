@@ -21,7 +21,7 @@ p{
             font-size: 18px;
 }
 
-.hero-scene{
+.resort{
     position: relative;
     &::before{
         content:"";
@@ -34,7 +34,7 @@ p{
         background-size: cover;
         filter: brightness(0.3);
     }
-            *{
+    *{
         //Positionner les éléments devant le ::before
         position:relative;
     }
