@@ -11982,10 +11982,10 @@ footer.footer {
   width: 100%;
 }
 
-.hero-scene {
+.resort {
   position: relative;
 }
-.hero-scene::before {
+.resort::before {
   content: "";
   position: absolute;
   top: 0;
@@ -11995,4 +11995,15 @@ footer.footer {
   background-image: url(../Images/resort-4471852_1280.jpg);
   background-size: cover;
   filter: brightness(0.3);
+}
+.resort * {
+  position: relative;
+}
+.resort .resort {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
 }/*# sourceMappingURL=main.css.map */
