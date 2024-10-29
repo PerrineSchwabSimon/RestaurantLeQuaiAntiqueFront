@@ -11983,6 +11983,15 @@ footer.footer {
 }
 
 .hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url(../Images/resort-4471852_1280.jpg);
   background-size: cover;
   filter: brightness(0.3);
