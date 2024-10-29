@@ -9,6 +9,18 @@ html{
 main{margin-bottom: 250px;
 }
 
+body {
+    font-family: "Bona Nova SC";}
+
+h1 {
+    font-family: "Bona Nova SC";}
+
+h2 {
+    font-family: "Smooch";}
+
+p{
+    font-family: "Cabin";}
+
 footer.footer{
         padding: 15px;
         position: absolute;
@@ -16,6 +28,33 @@ footer.footer{
         width: 100%;
 }
 
+.coffee{
+    position: relative;
+    &::before{
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image: url(../Images/ai-generated-8223835_1280.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+
+    *{
+        //Positionner les éléments devant le ::before
+        position:relative;
+    }
+
+    .hero-scene-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .text-justify{
     text-align: justify;
 }
