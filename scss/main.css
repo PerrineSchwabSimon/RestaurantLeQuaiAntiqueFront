@@ -11984,7 +11984,7 @@ html {
 }
 
 main {
-  margin-bottom: 250px;
+  margin-bottom: 270px;
 }
 
 body {
@@ -12027,7 +12027,7 @@ footer.footer {
 .coffee * {
   position: relative;
 }
-.coffee .hero-scene-content {
+.coffee .coffee {
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -12058,4 +12058,8 @@ footer.footer {
   transform: translate(-50% -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+
+.form-label {
+  color: #990033;
 }/*# sourceMappingURL=main.css.map */

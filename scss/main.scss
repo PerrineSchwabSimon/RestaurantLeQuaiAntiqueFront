@@ -6,7 +6,7 @@ html{
     min-height: 100%;
 }
 
-main{margin-bottom: 250px;
+main{margin-bottom: 270px;
 }
 
 body {
@@ -47,7 +47,7 @@ footer.footer{
         position:relative;
     }
 
-    .hero-scene-content{
+    .coffee{
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -83,3 +83,7 @@ footer.footer{
         transition: all 0.3s;
         }
 }
+
+    .form-label{
+        color: $primary;
+    }
