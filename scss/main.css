@@ -12074,4 +12074,10 @@ footer.footer {
 
 .form-label {
   color: #990033;
+}
+
+.allreservations a {
+  display: block;
+  color: #000;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
