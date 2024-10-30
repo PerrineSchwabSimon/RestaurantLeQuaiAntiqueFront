@@ -3,11 +3,9 @@
 
 html{
     position:relative;
-    min-height: 100%;
-}
+    min-height: 100%;}
 
-main{margin-bottom: 270px;
-}
+main{margin-bottom: 270px;}
 
 body {
     font-family: "Bona Nova SC";}
@@ -25,8 +23,7 @@ footer.footer{
         padding: 15px;
         position: absolute;
         bottom: 0;
-        width: 100%;
-}
+        width: 100%;}
 
 .coffee{
     position: relative;
@@ -39,13 +36,11 @@ footer.footer{
         height:100%;
         background-image: url(../Images/ai-generated-8223835_1280.jpg);
         background-size: cover;
-        filter: brightness(0.3);
-    }
+        filter: brightness(0.3);}
 
     *{
         //Positionner les éléments devant le ::before
-        position:relative;
-    }
+        position:relative;}
 
     .coffee{
         height: 300px;
@@ -53,23 +48,20 @@ footer.footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+        margin-bottom: 20px;}
 }
+
 .text-justify{
-    text-align: justify;
-}
+    text-align: justify;}
 
 .image-card{
     position:relative;
     &:hover{
         .titre-image,
         .action-image-buttons{
-            opacity: 1;
-            }
-         }
+            opacity: 1;}}
         img{
-            filter: brightness(0.3);
-            }
+            filter: brightness(0.3);}
 
     .action-image-buttons{
         position : absolute;
@@ -81,12 +73,10 @@ footer.footer{
         justify-content: space-between;
 
         opacity: 0;
-        transition: all 0.3s;
-        }
+        transition: all 0.3s;}
 
-    img{
-      transition: all 0.3s;  
-        }
+        img{
+         transition: all 0.3s;  }
    
     .titre-image{
         position: absolute;
@@ -94,18 +84,13 @@ footer.footer{
         left:50%;
         transform: translate(-50% -50%);
         opacity: 0;
-        transition: all 0.3s;
-        }
-    }
+        transition: all 0.3s;}}
 
     .form-label{
-        color: $primary;
-    }
+        color: $primary;}
 
 .allreservations{
         a{
             display: block;
             color: $black;
-            padding:10px;
-        }
-    }
+            padding:10px;}}
