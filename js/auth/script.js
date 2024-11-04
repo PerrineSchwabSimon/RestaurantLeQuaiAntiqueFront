@@ -22,7 +22,7 @@ function getToken(){
     return getCookie(tokenCookieName);
 }
 
-function setCookie(name,value,days){
+function setCookie(name, value, days){
     var expires = "";
     if (days){
         var date = new Date();
