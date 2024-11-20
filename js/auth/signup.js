@@ -90,8 +90,7 @@ function validateRequired(input){
     }
 }
 
-function InscrireUtilisateur()
-{
+function InscrireUtilisateur(){
     let dataForm = new FormData(formInscription);
 
     let myHeaders = new Headers();
@@ -101,14 +100,14 @@ function InscrireUtilisateur()
         "firstName": dataForm.get("nom"),
         "lastName": dataForm.get("prenom"),
         "email": dataForm.get("email"),
-        "password": dataForm.geet("mdp")
+        "password": dataForm.get("mdp")
     });
     
     let requestOptions = {
-        method: 'POST',
+        method: "POST",
         headers: myHeaders,
         body: raw,
-        redirect: 'follow'
+        redirect: "follow"
     };
     
     fetch("http://127.0.0.1:8000/api/registration", requestOptions)
