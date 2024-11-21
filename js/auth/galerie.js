@@ -8,11 +8,6 @@ let monImage = getImage(titre, imgSource);
 
 galerieImage.innerHTML = monImage;
 
-function sanitizeHtml(texte){
-    const tempHtml = document.createElement('div');
-    tempHtml.textContent = text;
-    return tempHtml.innerHTML;
-}
 
 function getImage(titre, urlImage){
     titre = sanitizeHtml(titre);
